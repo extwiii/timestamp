@@ -1,0 +1,24 @@
+<style>
+	h5{color:blue;}
+	h1{color:red;}
+	h6{color:red;}
+</style>
+
+
+<h1>Welcome to Timestamp microservice API </h1>
+
+	<h4>User stories: </h4>
+	<h4>1) I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: 15 July, 2016)</h4>
+	<h4>2) If it does, it returns both the Unix timestamp and the natural language form of that date.</h4>
+	<h4>3) If it does not contain a date or Unix timestamp, it returns null for those properties.</h4>
+
+<h3>Example usage:</h3>
+
+<h5>https://timestamp-ms.herokuapp.com/15 July 2016</h5>
+<h5>https://timestamp-ms.herokuapp.com/1468537200000</h5>
+
+<h3>Example output:</h3>
+
+<h5>{"unix":1468537200000,"natural":"July 15, 2016"}</h5>
+
+<h6>Developed by Bilal Cagiran</h6>
