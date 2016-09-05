@@ -38,7 +38,7 @@ function parsenat(time) {
 
 		var newDate = month + " " + day + ", " + year;
        return {  
-         unix: new Date(time).getTime(),  
+         unix: parseInt(new Date(time).getTime()),  
          natural: newDate  
        }  
   } 
