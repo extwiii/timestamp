@@ -1,24 +1,62 @@
-<style>
-	h5{color:blue;}
-	h1{color:red;}
-	h6{color:red;}
-</style>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <title>Timestamp microservice | Bilal cagiran</title>
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="Timestamp microservice | Bilal Cagiran">
+  <meta name="author" content="Rafase282">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
 
-<h1>Welcome to Timestamp microservice API </h1>
+<body>
+  <div class="container-fluid">
+    <img src="https://avatars1.githubusercontent.com/u/2933560?v=3&s=120" alt="Logo" />
+    <p>
+      <a href="mailto:bcagiran@hotmail.com">
+        <i class="fa fa-envelope fa-fw"></i>
+      </a>
+      <a href="https://github.com/extwiii/" target="_blank">
+        <i class="fa fa-github fa-fw"></i>
+      </a>
+      <a href="https://linkedin.com/in/bilalcagiran" target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+      <a href="http://codepen.io/extwiii/" target="_blank">
+        <i class="fa fa-codepen"></i>
+      </a>
+      <a href="http://bilalcagiran.com" target="_blank">
+        <i class="fa fa-wordpress"></i>
+      </a>
+      <a href="https://www.freecodecamp.com/extwiii" target="_blank">
+    (<i class="fa fa-fire fa-fw"></i>)
+  </a></p>Created by Bilal Cagiran
+    <h1 class="header">
+      Timestamp Microservice API
+    </h1>
+    <blockquote>
+      User stories:
+      <ul>1) I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: 15 July, 2016)</ul>
+      <ul>2) If it does, it returns both the Unix timestamp and the natural language form of that date.</ul>
+      <ul>3) If it does not contain a date or Unix timestamp, it returns null for those properties.</ul>
+    </blockquote>
+    <h3>Example usage:</h3>
+    <code>https://extwiii-timestamp.herokuapp.com/15 July 2016/</code>
+    <br>
+    <code>https://extwiii-timestamp.herokuapp.com/1468540800000</code>
+    <h3>Example output:</h3>
+    <code>
+      {"unix":1468540800000,"natural":"July 15, 2016"}
+    </code>
+  </div>
+</body>
 
-	<h4>User stories: </h4>
-	<h4>1) I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: 15 July, 2016)</h4>
-	<h4>2) If it does, it returns both the Unix timestamp and the natural language form of that date.</h4>
-	<h4>3) If it does not contain a date or Unix timestamp, it returns null for those properties.</h4>
-
-<h3>Example usage:</h3>
-
-<h5>https://timestamp-ms.herokuapp.com/15 July 2016</h5>
-<h5>https://timestamp-ms.herokuapp.com/1468537200000</h5>
-
-<h3>Example output:</h3>
-
-<h5>{"unix":1468537200000,"natural":"July 15, 2016"}</h5>
-
-<h6>Developed by Bilal Cagiran</h6>
+</html>
