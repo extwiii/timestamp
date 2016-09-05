@@ -1,14 +1,27 @@
 {
-  "name": "timestamp",
-  "version": "1.0.0",
-  "description": "timestamp microserver",
-  "main": "index.js",
+  "name": "timestamp API",
+  "version": "1.0.1",
+  "description": "timestamp microserver API",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "API",
+    "extwii",
+    "TimeStamp",
+    "NODE",
+    "nodejs"
+],
   "author": "extwiii",
-  "license": "ISC",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/extwiii/timestamp/issues"
+},
+  "homepage": "https://github.com/extwiii/timestamp#readme",
   "dependencies": {
     "express": "^4.14.0"
   }
 }
+
+
